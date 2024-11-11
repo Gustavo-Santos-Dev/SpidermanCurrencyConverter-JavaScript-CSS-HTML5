@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/spider-man-icon.png">
+    <title>Spider-Man Currency Converter</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <main>
+            <img id="spiderman-logo" src="./assets/spider-man-logo-classic.png" alt="spider-man-logo-classic">
+
+            <label>
+                <p class="label-paragraph">Convert <b>from</b></p>
+                <select class="select-currency-convert-from">
+                    <option value="convert-from-real">R$ - Brazilian Real</option>
+                    <!-- <option value="convert-from-dolar">US$ - Dólar Americano</option>
+                    <option value="convert-from-euro">€ - Euro</option>
+                    <option value="convert-from-libra">£ - Libra</option>
+                    <option value="convert-from-bitcoin">BTC - Biticoin</option> -->
+                </select>
+            </label>
+
+            <label>
+                <p class="label-paragraph">Convert <b>to</b></p>
+                <select class="select-currency-to-convert">
+                    <!-- <option value="convert-to-real">R$ - Real</option> -->
+                    <option value="convert-to-dollar">US$ - American Dollar </option>
+                    <option value="convert-to-euro">€ - Euro</option>
+                    <option value="convert-to-pound">£ - Pound</option>
+                    <option value="convert-to-bitcoin">BTC - Bitcoin</option>
+                    <option value="convert-to-dirham">د. إ - Dirham</option>
+                    <option value="convert-to-yen">¥ - Yen</option>
+                    <option value="convert-to-canadianDollar">CA$ - Canadian Dollar</option>
+                    <option value="convert-to-swissFranc">CHF - Swiss Franc</option>
+                    <option value="convert-to-norwegianKrone">kr - Norwegian Krone</option>
+                    <option value="convert-to-mexicanPeso">MX$ - Mexican Peso</option>
+                    <option value="convert-to-indianRupee">₹ - Indian Rupee</option>
+                    <option value="convert-to-rand">R - Rand</option>
+                </select>
+            </label>
+
+            <input type="number" id="value-to-convert" required placeholder="Amount">
+
+            <button id="convert-button">Converter</button>
+
+            <section>
+                <img id="spiderman-inverse" src="./assets/spider-man.png" alt="spider-man">
+
+                <div>
+                    <img id="image-brazilian-real" src="./assets/brasil.png" alt="image of the currency to convert">
+                    <p id="name-currency-to-convert">Brazilian Real</p>
+                    <p id="paragraph-value-to-convert" class="paragraph-value">0.00</p>
+                </div>
+
+                <img id="spider-arrow" src="./assets/spider-arrow.png" alt="spider-arrow">
+
+                <div>
+                    <img id="image-converted-currency" src="./assets/estados-unidos.png" alt="converted currency image">
+                    <p id="name-converted-currency">American Dollar</p>
+                    <p id="converted-value-paragraph" class="paragraph-value">0.00</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

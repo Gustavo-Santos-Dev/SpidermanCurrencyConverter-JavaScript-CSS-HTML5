@@ -100,7 +100,7 @@ section {
 }
 
 #spiderman-inverse {
-    position: fixed;
+    position: absolute;
     width: 128px;
     left: 67%;
     top: 49%;

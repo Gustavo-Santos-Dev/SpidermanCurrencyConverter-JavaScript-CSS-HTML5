@@ -41,8 +41,7 @@ The converter allows you to convert values from Brazilian Real (BRL) to other cu
 <!-- Project images -->
 <h2 id="layout">🎨 Project Preview</h2>
 <p align="center">
-    <img src="" alt="Project-Preview" width="49.5%">
-    <img src="" alt="Project-Preview" width="49.5%">
+    <img src="./assets/screenshot.jpg" alt="Project-Preview" width="100%">
 </p>
 <br>
 

@@ -54,7 +54,7 @@ Important: the entered value must be a whole number, without dots, commas, or an
 <br>
 
 <!-- Technologies Used -->
-<h2 width="3" id="tec">💻 Technologies Used</h2>
+<h2 width="3" id="technologies">💻 Technologies Used</h2>
 
 <img height="auto" width="30" src="https://github.com/carolbarbosa101/carolbarbosa101/assets/44561610/5d8aa673-1335-459f-a3c8-7149be4296d6">
 <img width="3">
@@ -119,7 +119,7 @@ Special thanks to the DevClub course for the lessons on HTML, CSS, JavaScript, a
 
 <h2> 📄 LICENSE </h2>
 This project is licensed under the MIT License. Feel free to use, modify, and distribute this code as needed.
-See the <a href="">LICENSE</a> file for more details.
+See the <a href="https://github.com/Gustavo-Santos-Dev/SpidermanCurrencyConverter-JavaScript-CSS-HTML5/blob/master/LICENSE">LICENSE</a> file for more details.
 
 <br>
 
